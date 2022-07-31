@@ -1,0 +1,46 @@
+<div class="box">
+    <div class="box-header">
+        <h4>Purchase Return List</h4>
+        <button routerLink="/purchase_return/form" class="btn btn-info" style="float:right" ngbTooltip="Add new item">New Purchase Return</button>
+    </div>
+    <div class="box-body">
+        <table class="table table-border table-hover col-md-10">
+            <thead class="bg-primary">
+                <tr>
+                    <th>Serial No</th>
+                    <th>Invoice No</th>
+                    <th>Purchase Date </th>
+                    <th>Supplier</th>
+                    <th>Purchase Status </th>
+                    <th>Grand Total </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of repo.purchaseReturnData; let i = index;">
+                    <td>{{i + 1 }}</td>
+                    <td>{{data.invoiceNo}}</td>
+                    <td>{{data.purchaseReturnDate | date}}</td>
+                    <td>{{getSupplierName()}}</td>
+                    <td>{{data.status | purchaseReturnStatusName}}</td>
+                    <td>{{data.grandTotal}}</td>
+
+                    <td>
+                        <div ngbDropdown class="d-inline-block">
+                            <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                              <button ngbDropdownItem routerLink="/purchase/{{data.purchaseId}}/return/form">New Return</button>
+                              <button ngbDropdownItem routerLink="/purchase_return/details/{{data.id}}">Details</button>
+                              <button ngbDropdownItem routerLink="/purchase/{{data.purchaseId}}/return/edit/{{data.id}}">Edit</button>
+                              <button ngbDropdownItem (click)="deleteRow(data.id)" [disabled]="true">Delete</button>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="box-footer">
+    </div>
+  </div>
+

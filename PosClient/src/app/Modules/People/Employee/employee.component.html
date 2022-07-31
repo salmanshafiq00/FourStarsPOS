@@ -1,0 +1,47 @@
+<div class="box">
+  <div class="box-header">
+      <h4>Employee List</h4>
+      <button routerLink="/employee/form" class="btn btn-info" style="float:right">New Employee</button>
+  </div>
+  <div class="box-body">
+      <table class="table table-border table-hover">
+          <thead class="bg-primary">
+              <tr>
+                  <th>Serial No</th>
+                  <th> Name</th>
+                  <th>Phone</th>
+                  <th>Mobile</th>
+                  <th>Email</th>
+                  <th>Designation</th>
+                  <th>Image</th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let employee of repo.employeeData; let i = index; trackBy:updateLastAction">
+                  <td>{{i + 1}}</td>
+                  <td>{{employee.name}}</td>
+                  <td>{{employee.phone}}</td>
+                  <td>{{employee.mobile}}</td>
+                  <td>{{employee.email}}</td>
+                  <td>{{employee.designation | toEnumName}}</td>
+                  <td>
+                      <img src="{{employee.profilePicture}}" height="50px" width="50px">
+                  </td>
+                  <td>
+
+                      <div ngbDropdown class="d-inline-block">
+                          <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button ngbDropdownItem routerLink="/employee/form/{{employee.id}}">Edit</button>
+                            <button ngbDropdownItem (click)="deleteRow(employee.id)">Delete</button>
+                          </div>
+                        </div>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
+</div>
+

@@ -1,0 +1,39 @@
+<div class="box">
+  <div class="box-header">
+    <h4>Category</h4>
+    &nbsp;<span style="color: black">Add/Update Category</span>
+    <form #form="ngForm" (ngSubmit)="submit(form)">
+      <div class="box-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id" />
+              <label class="form-label col-md-4 text-end">Category Name</label>
+              <div class="col-md-8">
+                <input type="text" class="form-control" required name="name" #name="ngModel"
+                  [(ngModel)]="formData.name" />
+                <span *ngIf="name.dirty && name.errors?.['required']">Category Name can not be empty</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="form-label col-md-4 text-end">Description</label>
+              <div class="col-md-8">
+                <textarea class="form-control" name="description" rows="2" [(ngModel)]="formData.description"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-footer">
+        <div class="col-md-10 text-center">
+          <button class="btn btn-success" type="submit" [disabled]="form.invalid">{{buttonMode}}</button>
+          <button class="btn btn-warning" routerLink="/">Close</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

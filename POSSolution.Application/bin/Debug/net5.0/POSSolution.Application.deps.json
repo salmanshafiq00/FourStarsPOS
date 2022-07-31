@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "POSSolution.Application/1.0.0": {
+        "dependencies": {
+          "POSSolution.Core": "1.0.0"
+        },
+        "runtime": {
+          "POSSolution.Application.dll": {}
+        }
+      },
+      "POSSolution.Core/1.0.0": {
+        "runtime": {
+          "POSSolution.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POSSolution.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POSSolution.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

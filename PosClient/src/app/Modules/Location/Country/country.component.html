@@ -1,0 +1,32 @@
+<div class="box">
+  <div class="box-header">
+      <h4>Country List</h4>
+      <button routerLink="/country/form" class="btn btn-info" style="float:right">New Country</button>
+  </div>
+  <div class="box-body">
+      <table class="table table-border table-hover col-md-10">
+          <thead class="bg-primary">
+              <tr>
+                  <th>Serial No</th>
+                  <th>Name</th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let data of repo.countryData; let i = index; trackBy: updateLastAction;">
+                  <td>{{i + 1}}</td>
+                  <td>{{data.name}}</td>
+                  <td>
+                      <div ngbDropdown class="d-inline-block">
+                          <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button ngbDropdownItem routerLink="/country/form/{{data.id}}">Edit</button>
+                            <button ngbDropdownItem (click)="deleteRow(data.id)">Delete</button>
+                          </div>
+                        </div>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

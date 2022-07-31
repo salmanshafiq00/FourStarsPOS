@@ -1,0 +1,45 @@
+<div class="box">
+  <div class="box-header">
+      <h4>Sales List</h4>
+      <button routerLink="/sales/form" class="btn btn-info" style="float:right" ngbTooltip="Add new item">New Sales</button>
+  </div>
+  <div class="box-body">
+      <table class="table table-border table-hover col-md-10">
+          <thead class="bg-primary">
+              <tr>
+                  <th>Serial No</th>
+                  <th>Invoice No</th>
+                  <th>Sales Date </th>
+                  <th>Customer</th>
+                  <th>Sales Status </th>
+                  <th>Grand Total </th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let data of repo.salesData let i = index;">
+                  <td>{{i + 1 }}</td>
+                  <td>{{data.invoiceNo}}</td>
+                  <td>{{data.salesDate | date}}</td>
+                  <td>{{getCustomerName(data.customerId)}}</td>
+                  <td>{{data.status | salesStatusName}}</td>
+                  <td>{{data.grandTotal}}</td>
+
+                  <td>
+                      <div ngbDropdown class="d-inline-block">
+                          <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button ngbDropdownItem routerLink="/sales_details/{{data.id}}">Details</button>
+                            <button ngbDropdownItem routerLink="/sales/form/{{data.id}}">Edit</button>
+                            <button ngbDropdownItem routerLink="/sales/{{data.id}}/return/form">Return</button>
+                            <button ngbDropdownItem (click)="deleteRow(data.id)" [disabled]="true">Delete</button>
+                          </div>
+                      </div>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <div class="box-footer">
+  </div>
+</div>

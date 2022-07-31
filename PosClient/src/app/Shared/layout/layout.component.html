@@ -1,0 +1,203 @@
+<div class="wrapper" *ngIf="isUserAuthenticated()">
+
+    <nav id="sidebar">
+        <ul class="list-unstyled components">
+            <li><button class="btn btn-large btn-warning" routerLink="dashboard" style="width: 100%;">Dashboard</button>
+            </li>
+            <ngb-accordion #acc="ngbAccordion" class="customScrollBar">
+
+                <ngb-panel title="Purchase">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="purchase">Purchase List</a>
+                        </li>
+                        <li>
+                            <a routerLink="purchase/form">Add Purchase</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="purchase_return">PurchaseReturn</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="purchase_return/form">PurchaseReturnAdd</a>
+                        </li>
+                    </ng-template>
+
+                </ngb-panel>
+                <ngb-panel title="Products">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="item">ItemList</a>
+                        </li>
+                        <li>
+                            <a routerLink="item/form">Add Item</a>
+                        </li>
+                        <li>
+                            <a routerLink="category/form">Add Category</a>
+                        </li>
+                        <li>
+                            <a routerLink="category">List Category</a>
+                        </li>
+                        <li>
+                            <a routerLink="brand/form">Add Brand</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="brand">List Brand</a>
+                        </li>
+                        <li>
+                            <a routerLink="unit">List Unit</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="unit/form">Add Unit</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+
+                <ngb-panel title="Sales">
+                    <ng-template ngbPanelContent>
+
+                        <li>
+                            <a routerLink="sales">List Sales</a>
+                        </li>
+                        <li>
+                            <a routerLink="sales/form">Add Sales</a>
+                        </li>
+                        <li>
+                            <a routerLink="pos">POS</a>
+                        </li>
+                        <li>
+                            <a routerLink="sales/return">SalesReturn List</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="sales/return/form">Add SalesReturn</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+                <ngb-panel title="People">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="supplier">Supplier List</a>
+                        </li>
+                        <li>
+                            <a routerLink="supplier/form">Add Supplier</a>
+                        </li>
+                        <li>
+                            <a routerLink="customer">Customer List</a>
+                        </li>
+                        <li>
+                            <a routerLink="customer/form">Add Customer</a>
+                        </li>
+                        <li>
+                            <a routerLink="employee">Employee List</a>
+                        </li>
+                        <li>
+                            <a routerLink="employee/form">Add Employee</a>
+                        </li>
+                        <li>
+                            <a routerLink="user">User List</a>
+                        </li>
+
+                        <li>
+                            <a routerLink="user/form">Add User</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+
+                <ngb-panel title="Role">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="role">Role List</a>
+                        </li>
+                        <li>
+                            <a routerLink="role/form">Add Role</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+
+                <ngb-panel title="Places">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="country">Country List</a>
+                        </li>
+                        <li>
+                            <a routerLink="country/form">Add Country</a>
+                        </li>
+                        <li>
+                            <a routerLink="state">State List</a>
+                        </li>
+                        <li>
+                            <a routerLink="state/form">Add State</a>
+                        </li>
+                        <li>
+                            <a routerLink="city">City List</a>
+                        </li>
+                        <li>
+                            <a routerLink="city/form">Add city</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+
+                <ngb-panel title="organization">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="company">Company</a>
+                        </li>
+                        <li>
+                            <a routerLink="company/form">Add Company</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+
+                <ngb-panel title="Report">
+                    <ng-template ngbPanelContent>
+                        <li>
+                            <a routerLink="report">Print Report</a>
+                        </li>
+                    </ng-template>
+                </ngb-panel>
+            </ngb-accordion>
+        </ul>
+    </nav>
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3c8dbc;">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link" routerLink="/pos">POS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="purchase/form">Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="purchase/form">Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="purchase/form">Page</a>
+                        </li>
+
+                        <li *ngIf="isUserAuthenticated()" class="nav-item">
+                            <a class="nav-link" (click)="logOut()" style="cursor: pointer;">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <router-outlet></router-outlet>
+        <!-- <div style="background-color: black;"><app-footer></app-footer></div>
+        <div *ngIf="!isUserAuthenticated()">
+            <login></login>
+          </div> 
+           -->
+    </div>
+</div>

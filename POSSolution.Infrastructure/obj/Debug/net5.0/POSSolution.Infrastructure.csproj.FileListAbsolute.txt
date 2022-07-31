@@ -1,0 +1,400 @@
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\source\repos\POSSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\Project\New folder\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Downloads\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\VisualStudio\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\FinalProject-main (2)\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+D:\FinalProject-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\FinalProject-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\VisualStudio\PosSolution\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\G3\Desktop\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\LAB-3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\FinalSolutionToday\FinalSolution\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\PosBackEnd-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\PosPurchaseComplete\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\Salman\Desktop\PosSolution\POSPurchaseComplete\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\PosSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+F:\POSSoftware\POSSoftware\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+D:\POSSoftware-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+D:\POSSoftware-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+G:\POSMachine-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+G:\POSMachine-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.deps.json
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.json
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.runtimeconfig.dev.json
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.dll
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.dll
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Application.pdb
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\bin\Debug\net5.0\POSSolution.Core.pdb
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.AssemblyInfo.cs
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.csproj.CopyComplete
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\ref\POSSolution.Infrastructure.dll
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.pdb
+C:\Users\D3\Desktop\POSWithReport-main\POSSolution.Infrastructure\obj\Debug\net5.0\POSSolution.Infrastructure.genruntimeconfig.cache

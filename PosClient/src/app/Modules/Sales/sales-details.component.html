@@ -1,0 +1,141 @@
+<div class="box">
+    <div class="box-header">
+      <h4>Sales Invoice</h4>
+      <small style="color: black" style="float: right; margin-top: 3px"> Sales Date: {{salesInvoice.salesDate | date}}</small>
+    </div>
+    <div class="box-body">
+        <div class="row mb-3 ">
+            <div class="col-md-4">
+                  <label class="row">{{company.name}}</label>
+                  <label class="row">{{company.address}}</label>
+                  <label class="row">Phone: {{company.phone}}</label>
+                  <label class="row">Mobile: {{company.mobile}}</label>
+                  <label class="row">Email: {{company.email}}</label>
+                  <label class="row">Vat No: {{company.vatNumber}}</label>
+            </div>
+  
+            <div class="col-md-4">
+              <label class="row">{{customerInfo?.name}}</label>
+              <label class="row">{{customerInfo?.address}}</label>
+              <label class="row">Phone: {{customerInfo?.phone}}</label>
+              <label class="row">Mobile: {{customerInfo?.mobile}}</label>
+              <label class="row">Email: {{customerInfo?.email}}</label>
+              <label class="row">VAT No: {{customerInfo?.taxNumber}}</label>
+          </div>
+
+  
+          <div class="col-md-4">
+              <label class="row">Invoice: {{salesInvoice.invoiceNo}}</label>
+              <label class="row">Sales Status: {{salesInvoice.status}}</label>
+
+          </div>
+      </div>
+       
+    
+          <!-- PurchaseBody Section -->
+          <div class="row">
+            <table class="table table-hover table-bordered">
+              <thead>
+                <tr class="row bg-primary text-center">
+                  <th class="col-md-3">Item Name</th>
+                  <!-- <th class="col-md-2">Expired Date</th> -->
+                  <th class="col-md-2">Quantity</th>
+                  <!-- <th class="col-md-2">Unit Cost</th> -->
+                  <th class="col-md-3">Total Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr class="row text-center" *ngFor="let sd of salesInvoice.salesDetails">
+                      <td class="col-md-3">{{getItemName(sd?.itemId)}}</td>
+                      <!-- <td class="col-md-2">{{sd?.expireDate | date}}</td> -->
+                      <td class="col-md-2">{{sd?.salesQty}}</td>
+                      <!-- <td class="col-md-2">{{sd?.discountAmount}}</td> -->
+                      <td class="col-md-3">{{sd?.totalAmount}}</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+  
+    
+        <!-- middle-area  -->
+        <div >
+          <div class="row">
+            <div class="col-md-6">
+  
+              <div class="form-group row">
+                <label for="sales_note" class="col-sm-4 control-label">Note:</label>
+                <div class="col-sm-8">
+                  <label>Note</label>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                   <h4 class="text-info">Payments Information : </h4>
+                   <table class="table table-hover table-striped table-bordered" style="width:100%; font-size: 12px;" id="">
+                      <thead>
+                         <tr class="bg-secondary">
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Payment Type</th>
+                            <th>Payment Note</th>
+                            <th>Payment</th>
+                         </tr>
+                      </thead>
+                      <tbody>
+                         <!-- <tr class="text-center text-bold" id="payment_row_99" *ngFor="let payment of salesInvoice.salesPayments; let i = index">
+                             <td>{{i + 1}}</td>
+                             <td>{{payment?.paymentDate}}</td>
+                             <td>{{payment?.paymentType}}</td>
+                             <td>{{payment?.paymentNote}}</td>
+                             <td class="text-right">818702.50</td>
+                        </tr> -->
+                        <tr class="text-right text-bold">
+                            <td colspan="4">Total</td><td>818702.50</td>
+                        </tr>                       
+                      </tbody>
+                   </table>
+                </div>
+             </div>
+            </div>
+    
+            <!-- calculation-area  -->
+            <div class="col-md-6 boldClass">
+              <div class="row mb-3">
+                <div class="col-md-6 text-end offset-md-1">
+                  <label for="">Subtotal</label>
+                </div>
+                <div class="col-md-2 offset-md-1 text-end">
+                  <label for="">{{salesInvoice.subTotal}}</label>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6 text-end offset-md-1">
+                  <label>Other Charges </label>
+                </div>
+                <div class="col-md-2 offset-md-1 text-end">
+                  <label>{{salesInvoice.otherCharges}}</label>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6 text-end offset-md-1">
+                  <label>Grand Total </label>
+                </div>
+                <div class="col-md-2 offset-md-1 text-end">
+                 <label>{{salesInvoice.grandTotal}}</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+       
+      <div class="box-footer">
+        <div class="row">
+            <label for="">Print</label>
+        </div>
+      </div>
+  </div>
+  
+

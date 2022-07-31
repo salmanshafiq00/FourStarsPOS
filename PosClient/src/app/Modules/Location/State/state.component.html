@@ -1,0 +1,32 @@
+<div class="box">
+  <div class="box-header">
+      <h4>State List</h4>
+      <button routerLink="/state/form" class="btn btn-info" style="float:right">New State</button>
+  </div>
+  <div class="box-body">
+      <table class="table table-border table-hover">
+          <thead class="bg-primary">
+              <tr>
+                  <th>Serial No</th>
+                  <th>State Name</th>
+                  <th>Action</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let state of repo.stateData; let i = index; trackBy:updateLastAction;">
+                  <td>{{i + 1}}</td>
+                  <td>{{state.name}}</td>
+                  <td>
+                      <div ngbDropdown class="d-inline-block">
+                          <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button ngbDropdownItem routerLink="/state/form/{{state.id}}">Edit</button>
+                            <button ngbDropdownItem (click)="deleteRow(state.id)">Delete</button>
+                          </div>
+                        </div>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

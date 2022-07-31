@@ -1,0 +1,131 @@
+
+<div class="box">
+    <div class="box-header">
+        <h4>Item</h4> &nbsp;<span style="color:black">Add/Update Items</span>
+    </div>
+    <form #form="ngForm" (ngSubmit)="submit(form)">
+        <div class="box-body">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group row">
+                        <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id">
+                        <label class="form-label col-md-4 text-end">Item Name</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" required name="name" #name="ngModel"
+                                [(ngModel)]="formData.name">
+                            <span *ngIf="name.dirty && name.invalid && name.errors?.['required']">Item Name can not be empty</span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Item Code</label>
+                        <div class="col-md-8">
+                            <input type="tel" class="form-control" required name="itemCode" #itemCode="ngModel"
+                                [(ngModel)]="formData.itemCode">
+                            <span *ngIf="itemCode.dirty && itemCode.errors?.['required']">item Code can not be
+                                empty</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Category</label>
+                        <div class="col-md-8">
+                            <select class="form-select" name="category" #categoryId="ngModel"
+                                [(ngModel)]="formData.categoryId">
+                                <option value="-1" selected>-----Select Category-----</option>
+                                <option *ngFor="let data of repo.categoryData" value="{{data.id}}">{{data.name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Brand</label>
+                        <div class="col-md-8">
+                            <select class="form-select" name="brandId" #brandId="ngModel"
+                                [(ngModel)]="formData.brandId">
+                                <option value="-1" selected>-----Select Brand-----</option>
+                                <option *ngFor="let data of repo.brandData" value="{{data.id}}">{{data.name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Unit</label>
+                        <div class="col-md-8">
+                            <select class="form-select" name="unitId" #unitId="ngModel" [(ngModel)]="formData.unitId">
+                                <option value="-1" selected>-----Select Unit-----</option>
+                                <option *ngFor="let data of repo.unitData" value="{{data.id}}">{{data.name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Discount</label>
+                        <div class="col-md-8">
+                            <select class="form-select" name="discountId" #discountId="ngModel"
+                                [(ngModel)]="formData.discountId">
+                                <option value="-1" selected>-----Select Discount-----</option> 
+                                <option value="1" selected>10</option> 
+                                <option *ngFor="let data of discountList" value="{{data.id}}">{{data.discountRate}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Profit Margin</label>
+                        <div class="col-md-8">
+                            <input type="number" class="form-control" required name="profitMargin"
+                                #profitMargin="ngModel" [(ngModel)]="formData.profitMargin">
+                            <span *ngIf="profitMargin.dirty && profitMargin.errors?.['required']">Profit Margin can not be empty</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-5">
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">SKU</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" required="required" name="sku" #sku="ngModel"
+                                [(ngModel)]="formData.sku">
+                            <span *ngIf="sku.dirty && sku.invalid && sku.errors?.['required']">SKU can not be empty</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Barcode</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" required name="barcode" #barcode="ngModel"
+                                [(ngModel)]="formData.barcode">
+                            <span *ngIf="barcode.dirty && barcode.errors?.['required']">Bar code can not be empty</span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Description</label>
+                        <div class="col-md-8">
+                            <textarea class="form-control" name="description" rows="2"
+                                [(ngModel)]="formData.description"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-label col-md-4 text-end">Image</label>
+                        <div class="col-md-8">
+                            <input type="file" id="userImg" class="form-control" required name="imagePath"
+                                (change)="onChange($event)">
+                            <span id="imgSpan">Max Width/Height: 300px * 300px & Size: 500Kb</span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <img id="proPic" src={{imagePlaceHolder}} alt="product image" height="100px" width="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="box-footer">
+            <div class="col-md-10 text-center">
+                <button class="btn btn-success"  type="submit" [disabled]="form.invalid"> {{buttonMode}}</button>
+                <button class="btn btn-warning" routerLink="/">Close</button>
+            </div>
+        </div>
+    </form>
+</div>

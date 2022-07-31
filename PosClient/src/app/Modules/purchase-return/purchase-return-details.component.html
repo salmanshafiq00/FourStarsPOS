@@ -1,0 +1,112 @@
+<div class="box">
+    <div class="box-header">
+      <h4>Purchase Return Invoice</h4>
+      <small style="color: black" style="float: right; margin-top: 3px"> Return Date: {{purchaseReturnInvoice.purchaseReturnDate | date}}</small>
+    </div>
+    <div class="box-body">
+        <div class="row mb-3 ">
+            <div class="col-md-5">
+                  <label class="row">{{company.name}}</label>
+                  <label class="row">{{company.address}}</label>
+                  <label class="row">Phone: {{company.phone}}</label>
+                  <label class="row">Mobile: {{company.mobile}}</label>
+                  <label class="row">Email: {{company.email}}</label>
+                  <label class="row">Vat No: {{company.vatNumber}}</label>
+            </div>
+  
+            <div class="col-md-4">
+              <label class="row">{{supplierInfo?.name}}</label>
+              <label class="row">{{supplierInfo?.address}}</label>
+              <label class="row">Phone: {{supplierInfo?.phone}}</label>
+              <label class="row">Mobile: {{supplierInfo?.mobile}}</label>
+              <label class="row">Email: {{supplierInfo?.email}}</label>
+              <label class="row">VAT No: {{supplierInfo?.vatNumber}}</label>
+          </div>
+
+  
+          <div class="col-md-3">
+              <label class="row">Invoice No: {{purchaseReturnInvoice.invoiceNo}}</label>
+              <label class="row">Return Status: {{purchaseReturnInvoice.status | purchaseReturnStatusName}}</label>
+
+          </div>
+      </div>
+       
+    
+          <!-- PurchaseBody Section -->
+          <div class="row">
+            <table class="table table-hover table-bordered">
+              <thead>
+                <tr class="row bg-primary text-center">
+                  <th class="col-md-3">Item Name</th>
+                  <!-- <th class="col-md-2">Expired Date</th> -->
+                  <th class="col-md-2">Quantity</th>
+                  <th class="col-md-3">Unit Cost</th>
+                  <th class="col-md-3">Total Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr class="row text-center" *ngFor="let pd of purchaseReturnInvoice.purchaseReturnDetails">
+                      <td class="col-md-3">{{getItemName(pd?.itemId)}}</td>
+                      <!-- <td class="col-md-2">{{pd?.expireDate | date}}</td> -->
+                      <td class="col-md-2">{{pd?.quantity}}</td>
+                      <td class="col-md-3">{{pd?.unitCost}}</td>
+                      <td class="col-md-3">{{pd?.totalAmount}}</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+  
+    
+        <!-- middle-area  -->
+        <div >
+          <div class="row">
+            <div class="col-md-6">
+  
+              <div class="form-group row">
+                <label for="sales_note" class="col-sm-4 control-label">Note:</label>
+                <div class="col-sm-8">
+                  <label>Note</label>
+                </div>
+              </div>
+            </div>
+    
+            <!-- calculation-area  -->
+            <div class="col-md-6 boldClass">
+              <div class="row mb-3">
+                <div class="col-md-6 text-end offset-md-1">
+                  <label for="">Subtotal</label>
+                </div>
+                <div class="col-md-2 offset-md-1 text-end">
+                  <label for="">{{purchaseReturnInvoice.subTotal}}</label>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6 text-end offset-md-1">
+                  <label>Other Charges </label>
+                </div>
+                <div class="col-md-2 offset-md-1 text-end">
+                  <label>{{purchaseReturnInvoice.otherCharges}}</label>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6 text-end offset-md-1">
+                  <label>Grand Total </label>
+                </div>
+                <div class="col-md-2 offset-md-1 text-end">
+                 <label>{{purchaseReturnInvoice.grandTotal}}</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+       
+      <div class="box-footer">
+        <div class="row">
+            <label for="">Print</label>
+        </div>
+      </div>
+  </div>
+  
+

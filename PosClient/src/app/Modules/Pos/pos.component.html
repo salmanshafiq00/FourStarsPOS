@@ -1,0 +1,168 @@
+
+<div class="row">
+  <div class="col-md-7">
+    <div class="box">
+      <div class="box-header">
+        <h4>Sales Invoice</h4>
+      </div>
+      <form>
+        <div class="box-body">
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <select class="form-control">
+                <option>Walk in Customer</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <input class="form-control" placeholder="Item Name/Barcode/Item Code">
+            </div>
+          </div>
+          <div style="height: 340px;">
+          <table class="table table-bordered table-striped table-hover" >
+            <thead class="bg-primary">
+              <tr>
+                <th>Item Name</th>
+                <th>Stock</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Tax</th>
+                <th>Subtotal</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lee Shirt</td>
+                    <td>5</td>
+                    <td>
+                        <div class="input-group">
+                            <button (click)="decrement_qty()" type="button" class="btn btn-flat">
+                                <i class="fas fa-minus text-danger"> - </i>
+                            </button>
+                            <input type="text" [value]="qty" class="form-control text-center" style="width: 50px;" />
+                            <button (click)="increment_qty()" type="button" class="btn btn-flat">
+                                <i class="fa fa-plus text-success"> +</i>
+                            </button>
+                        </div>
+                    </td>
+                    <!-- Unit Cost Without Tax-->
+                    <td>
+                        <label class="form-control text-center">1000</label>
+                    </td>
+
+                    <!-- Discount -->
+                    <td>
+                        <label class="form-control text-center">160</label>
+                    </td>
+
+                    <!-- Tax Amount -->
+                    <td>
+                        <label class="form-control text-center">10</label>
+                    </td>
+                    <!-- Amount -->
+                    <td>
+                        <label class="form-control text-center" style="border-color: #f39c12; width: 50; margin: auto;">990</label>
+                    </td>
+                    <td>
+                       <button class="btn btn-warning" type="button">Remove</button>
+                    </td>
+
+                </tr>
+            </tbody>
+
+          </table>
+        </div>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="checkbox" style="padding-right: 10px;"> Send sms to customer
+            </div>
+            <div class="col-md-6">
+              <div class="form-group row">
+                <label class="form-label col-md-6 text-end">Other charges
+                  <span style="color: red;">*</span></label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row text-end greyClass">
+          <div class="col-md-3 mt-3">
+            <h6>Quantity:</h6>
+            <h6>3</h6>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h6>Total Amount:</h6>
+            <h6>5000</h6>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h6>Total Discount:</h6>
+            <h6>0.00</h6>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h6>Grand Total:</h6>
+            <h6>5000</h6>
+          </div>
+        </div>
+
+        <div class="row greyClass">
+          <div class="col-md-3">
+            <button class="btn btnStyle" style="background-color: rgb(213, 23, 97);">Hold</button>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btnStyle" style="background-color: rgb(53, 147, 193);">Multiple</button>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btnStyle" style="background-color: rgb(85, 180, 34);">Cash</button>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btnStyle" style="background-color: rgb(106, 87, 168);">Pay all</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <div class="col-md-5">
+    <div class="box" style="border-top: 4px solid #2ac1e7;">
+      <div class="box-body">
+        <div class="row">
+          <div class="col-md-6">
+            <select class="form-control">
+              <option value="-1" selected>All Categories</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <select class="form-control">
+              <option value="-1" selected>All Brands</option>
+            </select>
+          </div>
+        </div>
+        <div class="mt-4 customScrollBar">
+            <div class="row mb-2">
+              <div class="col-md-3" *ngFor="let item of itemWithImages">
+                <div class="cardBox">
+                  <div class="cardHeader">
+                    <label>Qty: {{item.stockQty}}</label>
+                  </div>
+
+                  <div class="cardBody">
+                    <figure class="figure">
+                      <img src="{{item.imagePath}}" class="figure-img m-auto" alt="">
+                      <figcaption class="figure-caption text-center">{{item.itemName}}
+                        <h5>{{item.salesPrice}}</h5>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

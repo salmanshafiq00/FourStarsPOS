@@ -1,0 +1,84 @@
+.greyClass{
+    background-color: rgb(185, 183, 183);
+}
+
+.btnStyle{
+    border-color: rgb(185, 183, 183);
+    margin-bottom: 15px;
+    height: 50px;
+    width: 100%;
+    /* font-weight: bolder; */
+    color: white;
+    font-size: 20px;
+}
+
+.cardBox{
+    background-color: rgb(102, 185, 240);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardHeader>label{
+    font-size: 12px;
+    background-color: rgb(231, 126, 126);
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+    margin-left: 2px;
+}
+.cardBody{
+    padding: 10px 15px 0px 15px;
+}
+
+.cardBody>figure>img{
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
+    display: inline-block;
+    margin: auto;
+}
+
+.cardBody>figure{
+    width: 100%;
+}
+.cardBody>figure>figcaption{
+    color: black;
+}
+.cardBody>figure>figcaption>h5{
+    font-weight: bolder;
+}
+.customScrollBar{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 600px;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 4px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #E7F6F2; 
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px #cfc8fc; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #B2A4FF; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 4px; 
+  }
+
+  thead{
+    text-align: center;
+  }

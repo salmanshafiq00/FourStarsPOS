@@ -1,0 +1,238 @@
+<div class="box">
+  <div class="box-header">
+    <h4>Company</h4>
+    &nbsp;<span style="color: black">Add/Update Company</span>
+  </div>
+  <form #form="ngForm" (ngSubmit)="submit(form)">
+    <div class="box-body">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="form-group row">
+            <input
+              type="hidden"
+              name="id"
+              #id="ngModel"
+              [(ngModel)]="formData.id"
+            />
+            <label class="form-label col-md-4 text-end"> Name</label>
+            <div class="col-md-8">
+              <input
+                type="text"
+                class="form-control"
+                required
+                name="name"
+                #name="ngModel"
+                [(ngModel)]="formData.name"
+              />
+              <span
+                *ngIf="name.dirty && name.errors?.['required']"
+                >Company Name can not be empty</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Phone</label>
+            <div class="col-md-8">
+              <input
+                type="tel"
+                class="form-control"
+                required
+                name="phone"
+                #phone="ngModel"
+                [(ngModel)]="formData.phone"
+              />
+              <span *ngIf="phone.dirty && phone.errors?.['required']"
+                >Phone can not be empty</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Mobile</label>
+            <div class="col-md-8">
+              <input
+                type="number"
+                class="form-control"
+                required
+                name="mobile"
+                #mobile="ngModel"
+                [(ngModel)]="formData.mobile"
+              />
+              <span *ngIf="mobile.dirty && mobile.errors?.['required']"
+                >Mobile can not be empty</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Email</label>
+            <div class="col-md-8">
+              <input
+                type="email"
+                class="form-control"
+                required
+                name="email"
+                #email="ngModel"
+                [(ngModel)]="formData.email"
+              />
+              <span *ngIf="email.dirty && email.errors?.['required']"
+                >Email can not be empty</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">VAT Number</label>
+            <div class="col-md-8">
+              <input
+                type="text"
+                class="form-control"
+                required
+                name="vatNumber"
+                #vatNumber="ngModel"
+                [(ngModel)]="formData.vatNumber"
+              />
+              <span *ngIf="vatNumber.dirty && vatNumber.errors?.['required']"
+                >VAT Number can not be empty</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">TIN</label>
+            <div class="col-md-8">
+              <input
+                type="text"
+                class="form-control"
+                required
+                name="tin"
+                #tin="ngModel"
+                [(ngModel)]="formData.tin"
+              />
+              <span *ngIf="tin.dirty && tin.errors?.['required']"
+                >TIN can not be empty</span
+              >
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Country</label>
+            <div class="col-md-8">
+              <select
+              class="form-select"
+                name="countryId"
+                #countryId="ngModel"
+                [(ngModel)]="formData.countryId"
+                (change)="getStateById(formData.countryId)"
+              >
+                <option value="-1" selected>-----Select Country-----</option>
+                <option *ngFor="let data of repo.countryData" value="{{ data.id }}">
+                  {{ data.name }}
+                </option>
+              </select>
+            </div>
+          </div>
+         
+        </div>
+        <div class="col-md-5">
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">State</label>
+            <div class="col-md-8">
+              <select
+                class="form-select"
+                name="stateId"
+                #stateId="ngModel"
+                [(ngModel)]="formData.stateId"
+                (change)="getCityById(formData.stateId)"
+              >
+                <option value="-1" selected>-----Select State-----</option>
+                <option *ngFor="let data of stateData" value="{{ data.id }}">
+                  {{ data.name }}
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">City</label>
+            <div class="col-md-8">
+              <select
+              class="form-select"
+                name="cityId"
+                #cityId="ngModel"
+                [(ngModel)]="formData.cityId"
+              >
+                <option value="-1" selected>-----Select City-----</option>
+                <option *ngFor="let data of cityData" value="{{ data.id }}">
+                  {{ data.name }}
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Post Code</label>
+            <div class="col-md-8">
+              <input
+                type="text"
+                class="form-control"
+                required
+                name="postCode"
+                #postCode="ngModel"
+                [(ngModel)]="formData.postCode"
+              />
+              <span *ngIf="postCode.dirty && postCode.errors?.['required']"
+                >Post Code can not be empty</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Address</label>
+            <div class="col-md-8">
+              <input
+                type="text"
+                class="form-control"
+                required
+                name="address"
+                #address="ngModel"
+                [(ngModel)]="formData.address"
+              />
+              <span *ngIf="address.dirty && address.errors?.['required']"
+                >Address can not be empty</span
+              >
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="form-label col-md-4 text-end">Logo</label>
+            <div class="col-md-8">
+              <input
+                type="file"
+                id="userImg"
+                class="form-control"
+                required
+                name="companyLogo"
+                (change)="onChange($event)"
+              />
+              <span id="imgSpan"
+                >Max Width/Height: 300px * 300px & Size: 500Kb</span
+              >
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <img
+                id="proPic"
+                src="{{ imagePlaceHolder }}"
+                alt=""
+                height="100px"
+                width="100px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-footer">
+      <div class="col-md-10 text-center">
+        <button class="btn btn-success" type="submit" [disabled]="form.invalid">{{buttonMode}}</button>
+        <button class="btn btn-warning" routerLink="/">Close</button>
+      </div>
+    </div>
+  </form>
+</div>

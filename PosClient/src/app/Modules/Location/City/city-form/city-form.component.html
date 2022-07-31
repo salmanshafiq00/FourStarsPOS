@@ -1,0 +1,45 @@
+<div class="box">
+  <div class="box-header">
+      <h4>City </h4> &nbsp;<span style="color:black">Add/Update City</span>
+<form #form="ngForm" (ngSubmit)="submit(form)">
+  <div class="box-body">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="form-group row">
+          <label class="form-label col-md-4 text-end">Country</label>
+          <div class="col-md-8">
+            <select class="form-select" (change)="getStateById($any($event.target).value)">
+              <option value="-1" selected > -----Select Country----- </option>
+              <option *ngFor="let c of repo.countryData" (click)="getStateById(c.id)" value="{{c.id}}"> {{c.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="form-label col-md-4 text-end">State</label>
+          <div class="col-md-8">
+            <select class="form-select" name="stateId" [(ngModel)]="formData.stateId">
+              <option value="-1" selected>-----Select State-----</option>
+              <option *ngFor="let state of stateData" value="{{state.id}}"> {{state.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id" >
+          <label class="form-label col-md-4 text-end">City Name</label>
+          <div class="col-md-8">
+            <input  type="text" class="form-control"required name="name"
+            #name="ngModel" [(ngModel)]="formData.name" />
+          <span *ngIf="name.dirty && name.errors?.['required']"
+            >Name can not be empty</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="box-footer">
+  <div class="col-md-10 text-center">
+    <button class="btn btn-success" type="submit" [disabled]="form.invalid">{{buttonMode}}</button>
+    <button class="btn btn-warning" routerLink="/">Close</button>
+  </div>
+</div>
+</form>

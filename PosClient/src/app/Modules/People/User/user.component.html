@@ -1,0 +1,49 @@
+<div class="box">
+    <div class="box-header">
+        <h4>user List</h4>
+        <button routerLink="/user/form" class="btn btn-info" style="float:right">New user</button>
+    </div>
+    <div class="box-body">
+        <table class="table table-border table-hover">
+            <thead class="bg-primary">
+                <tr>
+                    <th>User ID</th>
+                    <th>User Name</th>
+                    <th>Phone</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Role</th>
+                    <th>Profile Pic</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of repo.userData; index as ID">
+                    <td>{{user.id}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.phone}}</td>
+                    <td>{{user.mobile}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.password}}</td>
+                    <td>{{user.roleId}}</td>
+                    <td>
+                        <img src="{{user.profilePicture}}" height="50px" width="50px">
+                    </td>
+                    <td><button class="btn btn-sm btn-success">Active</button></td>
+                    <td>
+
+                        <div ngbDropdown class="d-inline-block">
+                            <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                              <button ngbDropdownItem routerLink="/user/form/{{user.id}}">Edit</button>
+                              <button ngbDropdownItem (click)="deleteRow(user.id)">Delete</button>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

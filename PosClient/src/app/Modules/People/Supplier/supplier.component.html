@@ -1,0 +1,54 @@
+<div class="box">
+    <div class="box-header">
+        <h4>Supplier List</h4>
+        <button routerLink="/supplier/form" class="btn btn-info" style="float:right">New Supplier</button>
+    </div>
+    <div class="box-body">
+        <table class="table table-border table-hover">
+            <thead class="bg-primary">
+                <tr>
+                    <th>Serial No</th>
+                    <th>Supplier Name</th>
+                    <th>Phone</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                    <th>Purchase Due</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let supplier of repo.supplierData; let i = index; trackBy:updateLastAction">
+                    <td>{{supplier?.id}}</td>
+                    <td>{{supplier?.name}}</td>
+                    <td>{{supplier?.phone}}</td>
+                    <td>{{supplier?.mobile}}</td>
+                    <td>{{supplier?.email}}</td>
+                    <td>{{supplier?.balance}}</td>
+                    <td><button class="btn btn-sm btn-success">Active</button></td>
+                    <td>
+
+                        <div ngbDropdown class="d-inline-block">
+                            <button type="button" class="btn btn-primary" id="dropdownBasic1" ngbDropdownToggle>Action</button>
+                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                              <button ngbDropdownItem routerLink="/supplier/form/{{supplier.id}}">Edit</button>
+                              <button ngbDropdownItem (click)="deleteRow(supplier.id)">Delete</button>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot style="background-color: rgb(199, 204, 204);">
+                <tr>
+                    <td colspan="4"></td>
+                    <td class="text-end">Total: </td>
+                    <td colspan="2">200000</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="box-footer">
+
+    </div>
+</div>

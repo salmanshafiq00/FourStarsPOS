@@ -1,0 +1,234 @@
+<div class="row">
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-aqua">
+                    <i class="fa fa-shopping-bag"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Total Purchase amount
+                    </span>
+                    <span class="db-text-number">
+                        $ {{sumOfPurchase}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-yellow">
+                    <i class="fa fa-dollar"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Total Sales amount
+                    </span>
+                    <span class="db-text-number">
+                        $ {{sumOfSales}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-green">
+                    <i class="fa fa-cart-plus"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Total purchase due
+                    </span>
+                    <span class="db-text-number">
+                        $ {{sumOfPurchaseDue}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-red">
+                    <i class="fa fa-minus-square-o"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Total Budget
+                    </span>
+                    <span class="db-text-number">
+                        $ 39,92,02,820
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-aqua">
+                    <i class="fa fa-shopping-bag"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Todays Total Purchase
+                    </span>
+                    <span class="db-text-number">
+                        $ {{sumOfTodaysPurchase}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-yellow">
+                    <i class="fa fa-dollar"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Todays total sales
+                    </span>
+                    <span class="db-text-number">
+                        $ {{sumOfTodaysSales}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-green">
+                    <i class="fa fa-cart-plus"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Total Sales due
+                    </span>
+                    <span class="db-text-number">
+                        $ {{sumOfSalesDue}}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="db-box">
+                <span class="db-box-icon db-red">
+                    <i class="fa fa-minus-square-o"></i>
+                </span>
+                <div class="db-box-content">
+                    <span class="db-text">
+                        Total Budget
+                    </span>
+                    <span class="db-text-number">
+                        $ 39,92,02,820
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="small-box sb-pink">
+                <div class="inner text-uppercase">
+                    <h3>{{customerCount}}</h3>
+                    <p>Customers</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-group"></i>
+                </div>
+                <a routerLink="customer" class="sb-footer text-uppercase">
+                    view
+                    <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="small-box sb-purple">
+                <div class="inner text-uppercase">
+                    <h3>{{supplierCount}}</h3>
+                    <p>suppliers</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-group"></i>
+                </div>
+                <a routerLink="supplier" class="sb-footer text-uppercase">
+                    view
+                    <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="small-box sb-maroon">
+                <div class="inner text-uppercase">
+                    <h3>{{purchaseCount}}</h3>
+                    <p>purchase invoice</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-file-text-o"></i>
+                </div>
+                <a routerLink="purchase" class="sb-footer text-uppercase">
+                    view
+                    <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="small-box sb-green">
+                <div class="inner text-uppercase">
+                    <h3>{{salesCount}}</h3>
+                    <p>sales invoice</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-file-text-o"></i>
+                </div>
+                <a routerLink="sales" class="sb-footer text-uppercase">
+                    view
+                    <i class="fa fa-arrow-circle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row ctx">
+      <div class="col-md-7">
+        <div class="box">
+          <div class="box-header"></div>
+          <div class="box-body">
+            <canvas id="myChart" baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              
+            ></canvas>
+          </div>
+          <div class="box-footer"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="box">
+            <div class="box-header">
+                <h4>Stock Alert</h4>
+            </div>
+            <div class="box-body">
+                <table class="table table-border table-hover col-md-10">
+                    <thead class="bg-primary">
+                        <tr>
+                            <th>Serial No</th>
+                            <th>Item Name</th>
+                            <th>Item Code</th>
+                            <th>Stock Qty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let data of tableData; let i = index;">
+                            <td>{{i + 1 }}</td>
+                            <td>{{data.itemName}}</td>
+                            <td>{{data.itemCode}}</td>
+                            <td>{{data.stockQty}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="box-footer">
+            </div>
+        </div>
+      </div>
+    </div>

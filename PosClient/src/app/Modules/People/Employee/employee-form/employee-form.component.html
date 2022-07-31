@@ -1,0 +1,91 @@
+<div class="box">
+    <div class="box-header">
+      <h4>Employee</h4> &nbsp;<span style="color:black">Add / update employee</span>
+    </div>
+    <form #form="ngForm" (ngSubmit)="submit(form)">
+      <div class="box-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id">
+              <label class="form-label col-md-4 text-end"> Name</label>
+              <div class="col-md-8">
+                <input type="text" class="form-control" required name="employeeName" #employeeName="ngModel"
+                  [(ngModel)]="formData.name">
+                <span *ngIf="employeeName.dirty && employeeName.errors?.['required']">Name can not be empty</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="form-label col-md-4 text-end">Phone</label>
+              <div class="col-md-8">
+                <input type="tel" class="form-control" required name="phone" #phone="ngModel"
+                  [(ngModel)]="formData.phone">
+                <span *ngIf="phone.dirty && phone.errors?.['required']">Phone can not be empty</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="form-label col-md-4 text-end">Mobile</label>
+              <div class="col-md-8">
+                <input type="number" class="form-control" required name="mobile" #mobile="ngModel"
+                  [(ngModel)]="formData.mobile">
+                <span *ngIf="mobile.dirty && mobile.errors?.['required']">Mobile can not be empty</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="form-label col-md-4 text-end">Email</label>
+              <div class="col-md-8">
+                <input type="email" class="form-control" required name="email" #email="ngModel"
+                  [(ngModel)]="formData.email">
+                <span *ngIf="email.dirty && email.errors?.['required']">Email can not be empty</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="form-label col-md-4 text-end">
+                <label for="" class="form-label">Status</label>
+              </div>
+              <div class="col-md-8">
+                <select
+                  class="form-select"
+                  name="designation"
+                  #designation="ngModel"
+                  [(ngModel)]="formData.designation"
+                >
+                  <option value="-1" selected>-----Select Status-----</option>
+                  <option *ngFor="let dse of designEnum" value="{{ dse }}">
+                    {{ dse }}
+                  </option>
+                </select>
+              </div>
+            </div>
+  
+          </div>
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="form-label col-md-4 text-end">Profile Picture</label>
+              <div class="col-md-8">
+                <input type="file" id="userImg" class="form-control" required name="profilePicture"
+                  (change)="onChange($event)">
+                <span id="imgSpan">Max Width/Height: 500px * 500px & Size: 500Kb</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-4"></div>
+              <div class="col-md-8">
+                <img id="proPic" src={{imagePlaceHolder}} alt="" height="200px" width="200px">
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+      <div class="box-footer">
+        <div class="col-md-10 text-center">
+          <button class="btn btn-success" type="submit" [disabled]="form.invalid" >{{buttonMode}}</button>
+          <button class="btn btn-warning" routerLink="/">Close</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  

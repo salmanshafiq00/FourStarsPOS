@@ -1,0 +1,340 @@
+<div class="formbox">
+  <div class="box-header">
+    <h4>Purchase</h4>
+    &nbsp;<span style="color: black">Add/Update Purchase</span>
+  </div>
+  <form #form="ngForm" (ngSubmit)="submit(form)">
+    <input type="hidden" name="id" #id="ngModel" [(ngModel)]="formData.id" />
+    <div class="formbox-header text-end">
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <label class="form-label">Supplier Name</label>
+            </div>
+            <div class="col-md-8">
+              <select
+                class="form-select"
+                name="supplierId"
+                #supplierId="ngModel"
+                [(ngModel)]="formData.supplierId"
+              >
+                <option value="-1" selected>-----Select Supplier-----</option>
+                <option
+                  *ngFor="let supplier of repo.supplierData"
+                  value="{{ supplier.id }}"
+                >
+                  {{ supplier.name }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <label class="form-label">Purchase Date</label>
+            </div>
+            <div class="col-md-8">
+              <input
+                type="date"
+                class="form-control"
+                name="purchaseDate"
+                #purchaseDate="ngModel"
+                [(ngModel)]="formData.purchaseDate"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <label for="" class="form-label">Status</label>
+            </div>
+            <div class="col-md-8">
+              <select
+                class="form-select"
+                name="status"
+                #status="ngModel"
+                [(ngModel)]="formData.status"
+              >
+                <option value="-1" selected>-----Select Status-----</option>
+                <option *ngFor="let sts of statusArray" value="{{ sts }}">
+                  {{ sts }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
+              <label class="form-label">Invoice No.</label>
+            </div>
+            <div class="col-md-8">
+              <input
+                type="text"
+                class="form-control"
+                name="invoiceNo"
+                #invoiceNo="ngModel"
+                [(ngModel)]="formData.invoiceNo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- item search box-->
+    <div class="formbox-body">
+      <div class="row mb-3">
+        <div class="col-md-8 offset-md-2">
+          <div class="input-group">
+            <!-- <input
+              id="typeahead-prevent-manual-entry"
+              type="text"
+              style="border: 1px solid #33b5e5"
+              class="form-control"
+              [(ngModel)]="singleItemEntity"
+              [ngbTypeahead]="search"
+              [inputFormatter]="formatter"
+              [resultFormatter]="formatter"
+              [editable]="false"
+              [ngModelOptions]="{ standalone: true }"
+            /> -->
+            <input
+            id="typeahead-focus"
+            type="text"
+            class="form-control"
+            [(ngModel)]="singleItemEntity"
+            [ngbTypeahead]="search"
+            (focus)="focus$.next($any($event).target.value)"
+            (click)="click$.next($any($event).target.value)"
+            [inputFormatter]="formatter"
+            [resultFormatter]="formatter"
+            #instance="ngbTypeahead"
+            [ngModelOptions]="{ standalone: true }"
+          />
+            <a
+              class="btn btn-info input-group-append"
+              (click)="SelectedItem(singleItemEntity)"
+              >Add</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- PurchaseBody Section -->
+      <div class="row">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr class="row bg-primary text-center">
+              <th class="col-md-2">Item Name</th>
+              <th class="col-md-2">Expired Date</th>
+              <th class="col-md-2">Quantity</th>
+              <th class="col-md-2">Unit Cost</th>
+              <th class="col-md-2">Total Amount</th>
+              <th class="col-md-2">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor="
+                let purchaseDetails of formData.purchaseDetails;
+                let i = index;
+              "
+              class="row"
+            >
+              <td class="col-md-2">
+                <input
+                  type="number"
+                  style="display: none"
+                  name="itemId"
+                  [(ngModel)]="purchaseDetails.itemId"
+                />
+                <label>{{getItemName(purchaseDetails.itemId)}}</label>
+              </td>
+              <td class="col-md-2">
+                <input
+                  type="date"
+                  class="form-control"
+                  name="expireDate"
+                  [value]="purchaseDetails.expireDate"
+                  (change)="changedExpiredDate($event.target, i)"
+                />
+              </td>
+              <td class="col-md-2">
+                <div class="input-group">
+                  <button
+                    (click)="decrement_qty(i)"
+                    type="button"
+                    class="btn btn-flat"
+                  >
+                    <i class="fa fa-minus text-danger"></i>
+                  </button>
+                  <input
+                    type="number"
+                    class="form-control text-center"
+                    style="width: 50px; border-radius: 4px"
+                    name="quantity"
+                    [value]="purchaseDetails.quantity"
+                    (keyup)="changedQty($event.target, i)"
+                  />
+                  <button
+                    (click)="increment_qty(i)"
+                    type="button"
+                    class="btn btn-flat"
+                  >
+                    <i class="fa fa-plus text-success"></i>
+                  </button>
+                </div>
+              </td>
+              <!-- Unit Cost Without Tax-->
+              <td class="col-md-2">
+                <input
+                  type="number"
+                  class="form-control text-center"
+                  name="unitCost"
+                  [value]="purchaseDetails.unitCost"
+                  (keyup)="changedUnitCost($event.target, i)"
+                />
+              </td>
+
+              <td class="col-md-2">
+                <input
+                  type="number"
+                  Readonly
+                  style="
+                    width: 90%;
+                  "
+                  name="totalAmount"
+                  class="form-control text-center"
+                  [value]="purchaseDetails.quantity * purchaseDetails.unitCost"
+                />
+              </td>
+              <td class="col-md-2">
+                <a class="btn btn-warning" (click)="removeAttachedItem(i)"
+                  >Remove</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- middle-area  -->
+    <div class="formbox-calculation">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group row">
+            <label class="col-sm-4 control-label text-end">Quantity</label>
+            <div class="col-sm-4">
+              <input type="number"   readonly class="lblInput"  name="totalQuantity" #totalQuantity="ngModel" [(ngModel)]="formData.totalQuantity"/>
+            </div>
+          </div>
+          <div class="row text-end">
+            <div class="col-md-12">
+              <div class="form-group row">
+                <label for="other_charges_input" class="col-sm-4 control-label"
+                  >Other Charges</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="number"
+                    class="form-control"
+                    name="otherCharges"
+                    #otherCharges="ngModel"
+                    [(ngModel)]="formData.otherCharges"
+                  />
+                </div>
+                <div class="col-sm-4">
+                  <select class="form-select">
+                    <option>None</option>
+                    <option value="1">Vat 5%</option>
+                    <option value="2">Tax 10%</option>
+                    <option value="3">Tax 18%</option>
+                    <option value="4">None</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row text-end">
+            <label for="sales_note" class="col-sm-4 control-label">Note</label>
+            <div class="col-sm-8">
+              <textarea
+                class="form-control"
+                name="note"
+                #note="ngModel"
+                [(ngModel)]="formData.note"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- calculation-area  -->
+        <div class="col-md-6 boldClass">
+          <div class="row mb-3">
+            <div class="col-md-6 text-end offset-md-1">
+              <label for="">Subtotal</label>
+            </div>
+            <div class="col-md-2 offset-md-1 text-end">
+              <input
+                readonly
+                class="lblInput"
+                type="number"
+                name="subTotal"
+                #subTotal="ngModel"
+                [(ngModel)]="formData.subTotal"
+              />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6 text-end offset-md-1">
+              <label>Other Charges </label>
+            </div>
+            <div class="col-md-2 offset-md-1 text-end">
+              <input
+                readonly
+                type="number"
+                class="lblInput"
+                name="otherCharges"
+                [(ngModel)]="formData.otherCharges"
+              />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6 text-end offset-md-1">
+              <label>Grand Total </label>
+            </div>
+            <div class="col-md-2 offset-md-1 text-end">
+              <input
+                value="{{ formData.subTotal + formData.otherCharges }}"
+                readonly
+                type="number"
+                class="lblInput"
+                name="grandTotal"
+                #grandTotal="ngModel"
+                [(ngModel)]="formData.grandTotal"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="formbox-footer">
+      <div class="row">
+        <div class="col-md-6">
+          <button class="btn btn-success" type="submit" [disabled]="form.invalid">{{buttonMode}}</button>
+        </div>
+        <div class="col-md-6">
+          <button type="reset" class="btn btn-secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

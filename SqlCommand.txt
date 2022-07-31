@@ -1,0 +1,168 @@
+insert into dbo.Brands (Name, Description) values('Walton', 'National brand'), ('Samsung', 'International'),('Lg', 'Int Brand');
+go
+
+insert into dbo.Categories values('Mobile', 'Mobile brand'), ('TV', 'TV catagory'), ('Sports', 'AllSports');
+go
+
+go
+Insert into Units Values('Kg', 'Kilogram'), ('ltr', 'Liter'), ('bndl', 'Bundle');
+
+go
+insert into dbo.Countries values('Bangladesh'),('Pakistan'),('Maldives'),('Nepal'),('India');
+
+go
+insert into dbo.States values('KHulna', 1),('Dhaka', 1),('Chattagram',1),('Delhy', 3),('Karachi', 2);
+
+go
+insert into dbo.Cities values('Shahbag', 2),('Savar', 2),('Cumilla',3),('Gazipur', 1),('KhalishPur', 1);
+
+go
+insert into dbo.CompanyInfos values
+('V123','TXN123','Image','Arif Company Ltd','0238542',01812345678,'ar@gmail.com',1,1,1,'va200','LathiMara');
+
+GO
+insert into dbo.Suppliers values
+('TXN123', 300.00, 'Arif', '02123456' , 0181123456 , 'ar@gmail.com', 1, 1, 1,'Z123', 'Hatimara'),
+('TXN124', 300.00, 'Ray', '02123457' , 0181123457 , 'ray@gmail.com', 2, 2, 2,'Z124', 'Veramara'),
+('TXN125', 300.00, 'Miza', '02123458' , 0181123458 , 'miza@gmail.com', 3, 3, 3,'Z125', 'Gorumara');
+
+Go
+insert into dbo.Customers values
+('TXN123', 300.00,'Arif', '02123456', 0181123456 ,  'ar@gmail.com', 1,1,1,'Z123', 'Hatimara'),
+('TXN124', 300.00,'Ray','02123457' , 0181123457 , 'ray@gmail.com', 2,2,2,'Z124', 'Veramara'),
+('TXN125', 300.00,'Miza','02123458' , 0181123458 ,  'miza@gmail.com', 3,3,3,'Z125', 'Gorumara');
+
+GO
+insert into dbo.SalesDiscountTaxes Values(1, 0.05, 1000, 0.15);  
+
+
+Item 
+
+ {
+  "id": 0,
+  "name": "Mobile",
+  "itemCode": "Mo10001",
+  "categoryId": 1,
+  "brandId": 1,
+  "unitId": 1,
+  "sku": "mo-1-1-1-bl",
+  "barcode": "bar10001",
+  "description": "Brand Phone",
+  "profitMargin": 0.25,
+  "imagePath": "On Loading",
+  "discountId": 1
+ }
+ 
+
+purchase:
+ {
+  "id": 0,
+  "invoiceNo": "10001",   
+  "totalQuantity": 100,
+  "subTotal": 100000,
+  "otherCharges": 2000,
+  "grandTotal":100000,
+  "note": "note",
+  "supplierId": 1,
+  "purchaseDate": "2022-06-24",
+  "status": 1,
+  "purchaseDetails": [
+   {
+     "id": 0,
+     "quantity": 100,
+     "unitCost": 2100,
+     "totalAmount": 42000,
+     "discountAmount":2000,
+     "taxAmount":150,
+     "purchaseId": 0,
+     "itemId": 1 ,
+     "profitAmount": 5000,
+     "salesPrice": 100,
+     "expireDate": "2022-06-27",
+     "soldQty": 0
+   }
+  ]  
+} 
+
+
+purchaseReturn
+{
+  "id": 0,
+  "invoiceNo": "string",
+  "totalQuantity": 5,
+  "subTotal": 100,
+  "otherCharges": 10,
+  "grandTotal":10,
+  "note": "abc",
+  "purchaseReturnDate": "2022-06-30",
+  "status": 1,
+  "purchaseId": 1,
+  "purchaseReturnDetails": [
+    {
+      "id": 0,
+      "itemId": 1,
+      "quantity": 5,
+      "expireDate": "2022-06-30",
+      "unitCost": 0,
+      "totalAmount": 100,
+      "purchaseReturnId": 0
+    }
+  ]
+}
+
+sales:{
+  "id": 0,
+  "invoiceNo": "string",
+  "totalQuantity": 1,
+  "subTotal": 1000,
+  "otherCharges": 500,
+  "grandTotal": 1500,
+  "note": "string",
+  "customerId": 1,
+  "status": 1,
+  "salesDate": "2022-06-30",  
+  "salesDetails": [
+    {
+      "id": 0,
+      "salesQty": 1,
+      "totalAmount": 2900,
+      "salesId": 0,
+      "itemId": 1
+    }
+  ],
+   "salesPayment":{
+    "id": 0,
+    "paymentType": 1,
+    "paymentDate": "2022-06-24",
+    "amount": 10000,
+    "dueAmount": 11000,
+    "paymentNote": "Partial",
+    "purchaseId": 0
+ }
+}
+
+sales Return: 
+{
+  "id": 0,
+  "invoiceNo": SR1001
+  "totalQuantity": 4,
+  "subTotal": 100,
+  "otherCharges": 500,
+  "grandTotal": 522,
+  "note": "string",
+  "customerId": 1,
+  "status": 1,
+  "salesReturnDate": "2022-06-30",
+  "salesId": 1,
+  "salesReturnDetails": [
+    {
+      "id": 0,
+      "salesReturnQty": 4,
+      "totalAmount": 500,
+      "salesReturnId": 0,
+      "returnItemId": 1
+    }
+  ]
+ }
+
+
